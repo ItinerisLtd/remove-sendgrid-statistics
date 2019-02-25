@@ -1,0 +1,43 @@
+{
+    "name": "itinerisltd/remove-sendgrid-statistics",
+    "type": "wordpress-muplugin",
+    "description": "Remove SendGrid Statistics.",
+    "keywords": [
+        "menu",
+        "wordpress",
+        "wp"
+    ],
+    "homepage": "https://itinerisltd.github.io/remove-sendgrid-statistics/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Itineris Limited",
+            "email": "hello@itineris.co.uk",
+            "homepage": "https://itineris.co.uk/",
+            "role": "Company"
+        },
+        {
+            "name": "Tang Rufus",
+            "email": "tangrufus@gmail.com",
+            "homepage": "https://typist.tech/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        }
+    },
+    "prefer-stable": true,
+    "support": {
+        "email": "hello@itineris.co.uk",
+        "issues": "https://github.com/ItinerisLtd/remove-sendgrid-statistics/issues",
+        "source": "https://github.com/ItinerisLtd/remove-sendgrid-statistics"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-master"
+    }
+}
